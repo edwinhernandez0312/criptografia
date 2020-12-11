@@ -7,35 +7,6 @@ void main(List<String> args) {
     String cadenaEncriptada = "";
     new File(args[1]).readAsString().then((String contents) {
       List<String> letras = contents.split('');
-
-      // var letra_A = 'ﺍ';
-      // var letra_B = 'ﺏ';
-      // var letra_C = 'ﺝ';
-      // var letra_D = 'ﺩ';
-      // var letra_E = 'ﻩ';
-      // var letra_F = 'ﻭ';
-      // var letra_G = 'ﺯ';
-      // var letra_H = 'ﺡ';
-      // var letra_I = 'ﻁ';
-      // var letra_J = 'ﻱ';
-      // var letra_K = 'ﻙ';
-      // var letra_L = 'ﻝ';
-      // var letra_M = 'ﻡ';
-      // var letra_N = 'ﻥ';
-      // var letra_NN = 'ﺱ';
-      // var letra_O = 'ﻉ';
-      // var letra_P = 'ﻑ';
-      // var letra_Q = 'ﺹ';
-      // var letra_R = 'ﻕ';
-      // var letra_S = 'ﺭ';
-      // var letra_T = 'ﺵ';
-      // var letra_U = 'ﺕ';
-      // var letra_V = 'ﺙ';
-      // var letra_W = 'ﺥ';
-      // var letra_X = 'ﺫ';
-      // var letra_Y = 'ﺽ';
-      // var letra_Z = 'ﻅ';
-
       for (var i = 0; i < letras.length; i++) {
         if (letras[i] == "A" ||
             letras[i] == "a" ||
